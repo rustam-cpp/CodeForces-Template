@@ -8,10 +8,9 @@ using namespace std;
 #define stoi stoll
 #define endl '\n'
 
-const int inf = 3e18;
-const int mod = 1e9 + 7;
+const int inf  = 3e18;
+const int mod  = 1e9 + 7;
 const int mod2 = 998244353;
-const int hexmod = 7e17 + 3;
 
 #define all(x)(x).begin(), (x).end()
 #define rall(x)(x).rbegin(), (x).rend()
