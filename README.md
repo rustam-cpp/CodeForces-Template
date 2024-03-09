@@ -1,5 +1,5 @@
 # CodeForces-Template
-Template for C++ and Python (a little bit) programming on CodeForces.com
+Template for programming on C++ and Python (a little bit) on CodeForces.com
 
 It contain C++ and Python algorithms. Mostly, they are graph algorithms and mostly, on C++.
 
