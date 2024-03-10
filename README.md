@@ -1,6 +1,6 @@
 # CodeForces-Template
-Template for programming on C++ and Python (a little bit) on CodeForces.com
+Template for programming on C++ on CodeForces.com
 
-It contain C++ and Python algorithms. Mostly, they are graph algorithms and mostly, on C++.
+It contain algorithms. Mostly, they are graph / string / number theory algorithms
 
-Also it contain debug template on C++. You can do stresstesting with testgenerator on Python.
+Also it contain debug template. And you can do stresstesting with testgenerator.
