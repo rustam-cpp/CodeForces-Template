@@ -35,6 +35,8 @@ string genstr(int a, int b, int k, vector <string> p, bool add) {
 
 signed main() {
   // generating test
+
+  // ---------------
   freopen("test", "w", stdout);
   cout << test;
 }
