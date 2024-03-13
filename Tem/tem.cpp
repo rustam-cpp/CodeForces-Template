@@ -15,6 +15,8 @@ const int mod2 = 998244353;
 #define all(x)(x).begin(), (x).end()
 #define rall(x)(x).rbegin(), (x).rend()
 
+template <typename T> istream& operator >> (istream& in, vector<T>& a) { for (auto &i : a) in >> i; return in; }
+
 struct DEBUG {
   // types:
   // int, string,
