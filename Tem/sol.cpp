@@ -18,9 +18,13 @@ const int mod2 = 998244353;
 template <typename T> istream& operator >> (istream& in, vector <T>& a) { for (auto &i : a) in >> i; return in; }
 template <typename X> map <X, int> Count(vector <X>& a) { map <X, int> cnt; for (auto i : a) cnt[i]++; return cnt; }
 template <typename A, typename B> ostream& operator << (ostream& out, pair <A, B>& a) { out << "[ "; out << a.first << ", " << a.second; out << " ]"; return out; }
-template <typename V> ostream& operator << (ostream& out, vector <V>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
-template <typename W, typename Y> ostream& operator << (ostream& out, map <W, Y>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
-template <typename Z> ostream& operator << (ostream& out, set <Z>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
+template <typename C> ostream& operator << (ostream& out, vector <C>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
+template <typename D, typename E> ostream& operator << (ostream& out, map <D, E>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
+template <typename F> ostream& operator << (ostream& out, set <F>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
+template <typename G> ostream& operator << (ostream& out, queue <G>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
+template <typename H> ostream& operator << (ostream& out, deque <H>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
+template <typename I, typename J> ostream& operator << (ostream& out, unordered_map <I, J>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
+template <typename K> ostream& operator << (ostream& out, priority_queue <K>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
 
 bool testcases = 0;
 void solve(int testcase) {
