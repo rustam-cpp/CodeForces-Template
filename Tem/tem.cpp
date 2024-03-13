@@ -42,7 +42,7 @@ struct DEBUG {
   void print(string name, map <string, int>& a) { vector <pair <string, int>> ans; for (auto i : a) { ans.push_back(i); } print(name, ans); }
   void print(string name, map <int, string>& a) { vector <pair <int, string>> ans; for (auto i : a) { ans.push_back(i); } print(name, ans); }
   void print(string name, map <string, string>& a) { vector <pair <string, string>> ans; for (auto i : a) { ans.push_back(i); } print(name, ans); }
-  void print(string name, set <int>& a) { vector <int> ans; for (auto i: a) { ans.push_back(i); } print(name, ans); }
+  void print(string name, set <int>& a) { vector <int> ans; for (auto i : a) { ans.push_back(i); } print(name, ans); }
   void print(string name, set <pair <int, int>>& a) { vector <pair <int, int>> ans; for (auto i : a) { ans.push_back(i); } print(name, ans); }
   void print(string name, set <pair <string, int>>& a) { vector <pair <string, int>> ans; for (auto i : a) { ans.push_back(i); } print(name, ans); }
   void print(string name, set <pair <int, string>>& a) { vector <pair <int, string>> ans; for (auto i : a) { ans.push_back(i); } print(name, ans); }
