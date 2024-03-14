@@ -34,6 +34,7 @@ string genstr(int a, int b, int k, vector <string> p, bool add) {
 }
 
 signed main() {
+  srand(time(NULL));
   // generating test
 
   // ---------------
