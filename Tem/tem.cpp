@@ -25,6 +25,8 @@ template <typename G> ostream& operator << (ostream& out, queue <G>& a) { out <<
 template <typename H> ostream& operator << (ostream& out, deque <H>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
 template <typename I, typename J> ostream& operator << (ostream& out, unordered_map <I, J>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
 template <typename K> ostream& operator << (ostream& out, priority_queue <K>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
+template <typename L> ostream& operator << (ostream& out, unordered_set <L>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
+template <typename M> ostream& operator << (ostream& out, multiset <M>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
 
 bool testcases = 0;
 void solve(int testcase) {
