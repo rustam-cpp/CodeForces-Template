@@ -5,6 +5,7 @@
 using namespace std;
 #pragma optimize("Ofast")
 #define int long long
+#define int128 __int128_t
 #define stoi stoll
 #define endl '\n'
 
