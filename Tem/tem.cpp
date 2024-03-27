@@ -1,15 +1,12 @@
-/* author: rustam-cpp */
-
 #include <bits/stdc++.h>
 
 using namespace std;
-#pragma optimize("Ofast")
+#pragma GCC target ("avx2")
+#pragma GCC optimization ("O3")
 #define int long long
 #define int128 __int128_t
-#define stoi stoll
-#define endl '\n'
 
-const int inf  = 3e18;
+const int inf  = 7e18;
 const int mod  = 1e9 + 7;
 const int mod2 = 998244353;
 
@@ -26,8 +23,6 @@ template <typename G> ostream& operator << (ostream& out, queue <G>& a) { out <<
 template <typename H> ostream& operator << (ostream& out, deque <H>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
 template <typename I, typename J> ostream& operator << (ostream& out, unordered_map <I, J>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
 template <typename K> ostream& operator << (ostream& out, priority_queue <K>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
-template <typename L> ostream& operator << (ostream& out, unordered_set <L>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
-template <typename M> ostream& operator << (ostream& out, multiset <M>& a) { out << "{ "; int num = 0; for (auto i : a) { out << i; num++; out << ((num != 0 && num != a.size()) ? ", " : " "); } out << "}"; return out; }
 
 bool testcases = 0;
 void solve(int testcase) {
