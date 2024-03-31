@@ -4,6 +4,7 @@ using namespace std;
 #pragma GCC target ("avx2")
 #pragma GCC optimization ("O3")
 #define int long long
+#define double long double
 #define int128 __int128_t
 
 const int inf  = 7e18;
